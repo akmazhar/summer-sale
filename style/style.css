@@ -1,0 +1,82 @@
+.box{
+    width: 230px;
+    height:330px;
+    /* border: 1px solid red; */
+    box-shadow: 4px 4px 8px gray;
+}
+
+.text-primary {
+    color: #E527B2;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    width: 1300px;
+    height: 600px;
+    background-color: #fbeaf8;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.btn-primary, .btn-secondary{
+    background-color: #E527B2;
+    border: white;
+    padding: 3px 7px;
+    font-size: large;
+    border-radius: 5px;
+    font-weight: 300;
+}
+
+.title{
+    font-size: 40px; 
+    font-weight: 500;
+}
+
+.btn-promo{
+    border: white;
+    background-color: #fbeaf8;
+    padding: 5px 15px;
+    font-size: large;
+    font-weight: 300;
+    margin-left: 1cm;
+    
+}
+
+.box-img{
+    width: 80%;
+    height: 150px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.coupon-box{
+    width: 350px;
+    height: 800px;  
+}
+
+.checked {
+    color: orange;
+  }
+
+.box-btn{
+    padding: 5px 15px;
+    border: #fbeaf8;
+    background-color:white;
+    color: white;
+}
+.btn-fourth{
+    background-color: #E527B2;
+    border: white;
+    padding: 15px 25px;
+    font-size: large;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.btn-secondary{
+    background-color: #E527B2;
+    border: white;
+    padding: 3px 7px;
+    border-radius: 5px;
+    font-weight: 600;
+}

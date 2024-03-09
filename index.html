@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>85-Summer-Sale-Main-Assignment5</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    
+    <div class="banner-container text-center min-h-screen m-2">
+      <div class="banner-text">
+        <h4>---SALE FEVER---</h4><br>
+        <h1 class="title"><b>Purchase TK 200 or <br>above & get<span class="text-primary"> 20% Off</span></b></h1><br>
+
+     <button class="btn-promo">Use Promo Code</button><button class="btn-primary"> SELL200 </button>
+      </div>
+      <div class="banner-logo flex-col lg:flex-row-reverse">
+        <img class="banner-img max-w-sm rounded-lg shadow-3xl" src="./images/Summer 1.png" alt="" />
+      </div>
+    </div>
+
+
+
+
+    <section>
+      <h1 class="text-left m-5">Kitchenwear</h1>
+
+      <div class="card-container row">
+        <div class="left-side-container col-8">
+          <div class="cards-container d-flex justify-content-around flex-wrap">
+            <div class="box">
+              <img class="box-img" src="./images/prod1.png" alt="" />
+              <div class="box-info text-center p-3">
+              
+              
+                
+                <h4>K. Accecssories</h4>
+                <P></P>
+                <h6><span style="color: white;">:</span> 25.00 TK</h6>
+                <button onclick="handleCLikBtn(this)" class="btn box-btn">
+                  ADD TO CART
+                </button>
+              </div>
+            </div>
+            <div class="box">
+              <img class="box-img" src="./images/prod2.png" alt="" />
+              <div class="box-info text-center p-3">
+                <h4>K. Accecssories</h4>
+                <P></P>
+                <h6><span style="color: white;">:</span> 25.00 TK</h6>
+                <button onclick="handleCLikBtn(this)" class="btn box-btn">
+                  ADD TO CART
+                </button>
+              </div>
+            </div>
+            <div class="box">
+              <img class="box-img" src="./images/prod3.png" alt="" />
+              
+
+              <div class="box-info text-center p-3">
+                <h4>Home Cooker</h4>
+                <P></P>
+                <h6><span style="color: white;">:</span> 25.00 TK</h6>
+                <button onclick="handleCLikBtn(this)" class="btn box-btn">
+                  ADD TO CART
+                </button>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        
+        <div class="right-side-container col-4 text-center">
+          <div class="coupon">
+            <h4>Have coupon?</h4>
+            <input id="SELL200-confirm" type="text" placeholder="Coupon Code" class="input input-bordered w-0.5/3 max-w-xs"><button id="btn-SELL200" class="btn-secondary" style="color: white;" disabled>Apply</button>
+            <br>
+            <br>
+            <br>
+            <div class="selected-items" id="selected-items"></div>
+            <div class="cart-box">
+              <h6>Total Price: <span id="total"> 00.00 TK</span></h6>
+              <br>
+              
+
+              <div id="selected-items"></div>
+              <h5>Discount Price: <span id="discounted-total" >0</span> TK</h5>
+            </div>
+            <br>
+            
+            
+
+
+
+            <a href="img.html"><button class="btn-fourth" style="color: white;" >Make Purchase</button></a> 
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      </section>
+
+
+
+
+    <section>
+      <h1 class="text-left m-5">Sportswear</h1>
+
+      <div class="card-container row">
+        <div class="left-side-container col-8">
+          <div class="cards-container d-flex justify-content-around flex-wrap">
+            <div class="box">
+              <img class="box-img" src="./images/prod4.png" alt="" />
+              <div class="box-info text-center p-3">
+                <h4>Sports Black Cap</h4>
+                <P></P>
+                <h6><span style="color: white;">:</span> 49.00 TK</h6>
+                <button onclick="handleCLikBtn(this)" class="btn box-btn">
+                  ADD TO CART
+                </button>
+              </div>
+            </div>
+            <div class="box">
+              <img class="box-img" src="./images/prod5.png" alt="" />
+              <div class="box-info text-center p-3">
+                <h4>Full Jersey Set</h4>
+                <P></P>
+                <h6><span style="color: white;">:</span> 59.00 TK</h6>
+                <button onclick="handleCLikBtn(this)" class="btn box-btn">
+                  ADD TO CART
+                </button>
+              </div>
+            </div>
+            <div class="box">
+              <img class="box-img" src="./images/prod6.png" alt="" />
+              <div class="box-info text-center p-3">
+                <h4>Sports Cades</h4>
+                <P></P>
+                <h6><span style="color: white;">:</span> 159.00 TK</h6>
+                <button onclick="handleCLikBtn(this)" class="btn box-btn">
+                  ADD TO CART
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+    </section>
+    
+    <section>
+      <h1 class="text-left m-5">Furniture</h1>
+
+      <div class="card-container row">
+        <div class="left-side-container col-8">
+          <div class="cards-container d-flex justify-content-around flex-wrap">
+            <div class="box">
+              <img class="box-img" src="./images/prod6.png" alt="" />
+              <div class="box-info text-center p-3">
+                <h4>Relax Single Chair</h4>
+                <P></P>
+                <h6><span style="color: white;">:</span> 185.00 TK</h6>
+                <button onclick="handleCLikBtn(this)" class="btn box-btn">
+                  ADD TO CART
+                </button>
+              </div>
+            </div>
+            <div class="box">
+              <img class="box-img" src="./images/prod7.png" alt="" />
+              <div class="box-info text-center p-3">
+                <h4>Children Play</h4>
+                <P></P>
+                <h6><span style="color: white;">:</span> 299.00 TK</h6>
+                <button onclick="handleCLikBtn(this)" class="btn box-btn">
+                  ADD TO CART
+                </button>
+              </div>
+            </div>
+            <div class="box">
+              <img class="box-img" src="./images/prod8.png" alt="" />
+              <div class="box-info text-center p-3">
+                <h4>Flexible Sofa</h4>
+                <P></P>
+                <h6><span style="color: white;">:</span> 339.00 TK</h6>
+                <button onclick="handleCLikBtn(this)" class="btn box-btn">
+                  ADD TO CART
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+    </section>
+    <!-- script tag -->
+    <script>
+
+      document.getElementById('SELL200-confirm').addEventListener('keyup', function(even){
+       const text = event.target.value;
+       console.log(text);
+       const applyButton = document.getElementById('btn-SELL200');
+       if(text === 'SELL200'){
+       applyButton.removeAttribute('disabled');
+       }
+       else{
+          applyButton.setAttribute('disabled');
+       }
+      })
+      </script>
+
+     <script>
+  <script>
+    function handleCLikBtn(target) {
+      const selectedItemContainer = document.getElementById("selected-items");
+      const itemName = target.parentNode.childNodes[1].innerText;
+      const ul = document.createElement("ul");
+      ul.innerText = itemName;
+      selectedItemContainer.appendChild(ul);
+
+      const price = parseFloat(target.parentNode.childNodes[5].innerText.split(" ")[1]);
+      total += price;
+      document.getElementById("total").innerText = total;
+
+      const discountPercentage = 20;
+      const discountAmount = (discountPercentage / 100) * price;
+    
+      
+      document.getElementById("discount").innerText = discountAmount.toFixed(2);
+      
+    }
+  </script>
+  
+   
+
+    <script src="./js/index.js"></script>
+
+  </body>
+</html>
